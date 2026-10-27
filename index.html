@@ -3,6 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script>
+      // Defensive guard against browser extensions trying to override window.fetch
+      (function() {
+        try {
+          var originalFetch = window.fetch;
+          var customFetch = originalFetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return customFetch;
+            },
+            set: function(fn) {
+              customFetch = fn;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {}
+
+        // Suppress external chrome-extension errors from halting app execution
+        window.addEventListener('error', function(event) {
+          if (event.filename && event.filename.indexOf('chrome-extension://') !== -1) {
+            event.preventDefault();
+            event.stopPropagation();
+            return true;
+          }
+        }, true);
+
+        window.addEventListener('unhandledrejection', function(event) {
+          if (event.reason && String(event.reason.stack || event.reason).indexOf('chrome-extension://') !== -1) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+        }, true);
+      })();
+    </script>
     <title>Phòng Thảo Luận Số – Tin học 10 | THPT Đinh Tiên Hoàng</title>
     <meta name="description" content="Ứng dụng cộng tác và thảo luận thời gian thực 12 nhóm cho tiết Tin học 10 về Bản quyền nội dung số – Trường THPT Đinh Tiên Hoàng (GV: Lê Thị Dung)." />
     <meta property="og:title" content="Phòng Thảo Luận Số – Tin học 10 | THPT Đinh Tiên Hoàng" />
