@@ -1,0 +1,341 @@
+{
+  "id": "session-1793074431550",
+  "className": "10A1",
+  "schoolName": "THPT Đinh Tiên Hoàng",
+  "teacherName": "Lê Thị Dung",
+  "subject": "Tin học 10",
+  "sessionTitle": "Bản quyền nội dung số, quyền lợi của tác giả và cách sử dụng nội dung số phù hợp",
+  "isLocked": false,
+  "pinCode": "gv10dth",
+  "createdAt": "2026-10-27T04:13:51.550Z",
+  "topics": [
+    {
+      "id": "topic-1",
+      "number": 1,
+      "title": "PHẦN MỀM TRẢ PHÍ VÀ BẢN QUYỀN",
+      "scenario": "Một học sinh tải phần mềm trả phí từ nguồn không chính thức và dùng bản đã bẻ khóa (crack).",
+      "iconType": "shield",
+      "groupNumbers": [
+        1,
+        2,
+        3
+      ],
+      "color": "indigo"
+    },
+    {
+      "id": "topic-2",
+      "number": 2,
+      "title": "SỬ DỤNG HÌNH ẢNH TRÊN INTERNET",
+      "scenario": "Lấy ảnh trên Internet đưa vào bài trình chiếu, không ghi nguồn và không kiểm tra điều kiện sử dụng.",
+      "iconType": "image",
+      "groupNumbers": [
+        4,
+        5,
+        6
+      ],
+      "color": "sky"
+    },
+    {
+      "id": "topic-3",
+      "number": 3,
+      "title": "SỬ DỤNG BÀI HÁT LÀM NHẠC NỀN",
+      "scenario": "Dùng một bài hát nổi tiếng làm nhạc nền cho video của lớp rồi đăng công khai lên mạng xã hội.",
+      "iconType": "music",
+      "groupNumbers": [
+        7,
+        8,
+        9
+      ],
+      "color": "purple"
+    },
+    {
+      "id": "topic-4",
+      "number": 4,
+      "title": "SỬ DỤNG HÌNH ẢNH CÓ GIẤY PHÉP",
+      "scenario": "Tải một hình ảnh có giấy phép sử dụng, nhưng chưa đọc điều kiện giấy phép trước khi chỉnh sửa và đăng lại.",
+      "iconType": "file-badge",
+      "groupNumbers": [
+        10,
+        11,
+        12
+      ],
+      "color": "emerald"
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "order": 1,
+      "prompt": "Hành vi nào có vấn đề?",
+      "hint": "Chỉ rõ hành vi chưa đúng, chưa xin phép hoặc vi phạm quy định pháp luật / bản quyền trong tình huống trên."
+    },
+    {
+      "id": "q2",
+      "order": 2,
+      "prompt": "Quyền lợi của tác giả có thể bị ảnh hưởng như thế nào?",
+      "hint": "Phân tích các tổn hại về kinh tế (doanh thu), uy tín, danh dự hoặc quyền toàn vẹn tác phẩm của tác giả."
+    },
+    {
+      "id": "q3",
+      "order": 3,
+      "prompt": "Cần làm gì để sử dụng nội dung phù hợp?",
+      "hint": "Đưa ra các giải pháp đúng đắn, hợp pháp (mua bản quyền, xin phép, trích dẫn nguồn, tìm tài nguyên miễn phí bản quyền hoặc giấy phép Creative Commons)."
+    }
+  ],
+  "submissions": {
+    "1": {
+      "groupId": 1,
+      "groupName": "Nhóm 1",
+      "topicId": "topic-1",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "2": {
+      "groupId": 2,
+      "groupName": "Nhóm 2",
+      "topicId": "topic-1",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "3": {
+      "groupId": 3,
+      "groupName": "Nhóm 3",
+      "topicId": "topic-1",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "4": {
+      "groupId": 4,
+      "groupName": "Nhóm 4",
+      "topicId": "topic-2",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "5": {
+      "groupId": 5,
+      "groupName": "Nhóm 5",
+      "topicId": "topic-2",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "6": {
+      "groupId": 6,
+      "groupName": "Nhóm 6",
+      "topicId": "topic-2",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "7": {
+      "groupId": 7,
+      "groupName": "Nhóm 7",
+      "topicId": "topic-3",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "8": {
+      "groupId": 8,
+      "groupName": "Nhóm 8",
+      "topicId": "topic-3",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "9": {
+      "groupId": 9,
+      "groupName": "Nhóm 9",
+      "topicId": "topic-3",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "10": {
+      "groupId": 10,
+      "groupName": "Nhóm 10",
+      "topicId": "topic-4",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "11": {
+      "groupId": 11,
+      "groupName": "Nhóm 11",
+      "topicId": "topic-4",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    },
+    "12": {
+      "groupId": 12,
+      "groupName": "Nhóm 12",
+      "topicId": "topic-4",
+      "answer1": "",
+      "answer2": "",
+      "answer3": "",
+      "status": "not_started",
+      "submittedAt": null,
+      "updatedAt": "2026-10-27T04:14:03.657Z",
+      "wordCount": 0
+    }
+  },
+  "feedbacks": {
+    "1": {
+      "groupId": 1,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "2": {
+      "groupId": 2,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "3": {
+      "groupId": 3,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "4": {
+      "groupId": 4,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "5": {
+      "groupId": 5,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "6": {
+      "groupId": 6,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "7": {
+      "groupId": 7,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "8": {
+      "groupId": 8,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "9": {
+      "groupId": 9,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "10": {
+      "groupId": 10,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "11": {
+      "groupId": 11,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    },
+    "12": {
+      "groupId": 12,
+      "generalComment": "",
+      "strengths": "",
+      "improvements": "",
+      "suggestions": "",
+      "reviewedAt": null,
+      "isPublished": false
+    }
+  }
+}

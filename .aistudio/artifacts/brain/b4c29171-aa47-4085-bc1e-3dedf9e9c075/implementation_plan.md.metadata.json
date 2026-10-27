@@ -1,0 +1,6 @@
+{
+  "summary":  "Kế hoạch kiến trúc và triển khai Phòng Thảo Luận Số cho lớp Tin học 10 THPT Đinh Tiên Hoàng (GV: Lê Thị Dung). Bao gồm thiết kế đồng bộ thời gian thực giữa 12 nhóm học sinh trên điện thoại và màn hình máy chiếu của giáo viên, chế độ trình chiếu toàn màn hình 16:9, bảng điều khiển quản lý và nhận xét, lưu nháp ngoại tuyến và bảo mật PIN.",
+  "updatedAt":  "2026-10-27T04:03:42.526548772Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
