@@ -26,16 +26,21 @@ export const QrCodeModal: React.FC<QrCodeModalProps> = ({ isOpen, onClose, selec
   const { session } = useSession();
 
   // Determine candidate URLs
-  const defaultUrl = (() => {
+  const getCandidateUrl = () => {
     if (typeof window === 'undefined') return '';
+    const origin = window.location.origin;
+    // If running on a public domain (like vercel.app, custom domain):
+    if (!origin.includes('localhost') && !origin.includes('127.0.0.1')) {
+      return selectedGroup ? `${origin}?group=${selectedGroup}` : origin;
+    }
+    // If running on localhost or dev sandbox, but server provided an appUrl:
     if (session?.appUrl && !session.appUrl.includes('localhost')) {
       return selectedGroup ? `${session.appUrl}?group=${selectedGroup}` : session.appUrl;
     }
-    const origin = window.location.origin;
     return selectedGroup ? `${origin}?group=${selectedGroup}` : origin;
-  })();
+  };
 
-  const [targetUrl, setTargetUrl] = useState<string>(defaultUrl);
+  const [targetUrl, setTargetUrl] = useState<string>(getCandidateUrl);
   const [isEditingUrl, setIsEditingUrl] = useState<boolean>(false);
   const [qrDataUrl, setQrDataUrl] = useState<string>('');
   const [copied, setCopied] = useState<boolean>(false);
@@ -44,12 +49,7 @@ export const QrCodeModal: React.FC<QrCodeModalProps> = ({ isOpen, onClose, selec
   // Sync default URL when session or modal opens
   useEffect(() => {
     if (isOpen) {
-      const computed = session?.appUrl && !session.appUrl.includes('localhost')
-        ? (selectedGroup ? `${session.appUrl}?group=${selectedGroup}` : session.appUrl)
-        : (typeof window !== 'undefined'
-            ? (selectedGroup ? `${window.location.origin}?group=${selectedGroup}` : window.location.origin)
-            : '');
-      setTargetUrl(computed);
+      setTargetUrl(getCandidateUrl());
     }
   }, [isOpen, session?.appUrl, selectedGroup]);
 
